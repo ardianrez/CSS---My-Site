@@ -1,3 +1,126 @@
+.top-container {
+  background-color: #e4f9f5;
+  text-align: center;
+}
+
+.middle-container {
+}
+
 body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto 20px auto;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 15%;
+  border-width: 5px;
+  border-color: #EAF6F6;
+  margin: 100px auto 100px auto;
+}
+
+.red {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.blue {
   background-color: blue;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 400px;
+  top: 400px;
+}
+
+.inner-container {
+  margin: 0 auto 0 auto;
+  width: 30%;
+}
+
+.upper-cloud {
+  position: relative;
+  left: 15%;
+  top: 450px;
+}
+
+.lower-cloud {
+  position: absolute;
+  top: 550px;
+  left: 30%;
+}
+
+.profpic {
+  margin-top: 30px;
+  height: 120px;
+  width: 120px;
+}
+
+.humanskill-icon {
+  height: 25%;
+  width: 25%;
+  float: left;
+  margin: 0 50px 0 0;
+}
+
+.computerskill-icon {
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin: 0 0 0 50px;
+}
+
+.skill-row {
+  margin: 100px auto 100px;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 50px;
+}
+
+.contact-me {
+  margin-bottom: 75px;
+}
+
+.footer-link {
+  color: #11999E;
 }
