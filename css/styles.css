@@ -34,6 +34,7 @@ a {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
   margin: auto 20px auto;
+  text-decoration: none;
 }
 
 hr {
@@ -123,4 +124,12 @@ hr {
 
 .footer-link {
   color: #11999E;
+}
+
+.btn {
+  margin-top: 20px;
+  color: white;
+  background-color: #66BFBF;
+  border-radius: 15px;
+  padding: 15px;
 }
